@@ -1,0 +1,21 @@
+{
+  "name": "tailwindui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/global.css -o ./dist/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "daisyui": "^2.11.0",
+    "kutty": "^0.6.0",
+    "tw-elements": "^1.0.0-alpha11"
+  }
+}
